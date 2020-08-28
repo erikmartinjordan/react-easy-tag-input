@@ -1,0 +1,40 @@
+.TagInput{
+    width: 1000px;
+}
+.TagInput .Tags{
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    padding: 2px;
+}
+.TagInput .Tag{
+    align-items: center;
+    background: rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    display: flex;
+    margin: 3px;
+    padding: 1px 2px;
+}
+.TagInput input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.TagInput button{
+    align-items: center;
+    background: rgba(1, 1, 1, 0.3);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin: 2px;
+    outline: none;
+    width: 20px;
+}
+.TagInput .Hint{
+    font-size: small;
+}
