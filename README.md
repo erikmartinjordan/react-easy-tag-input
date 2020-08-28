@@ -17,8 +17,9 @@ npm i --save react-easy-tag-input
 
 ## How to use
 
-```javascript
+```jsx
 import React, { useState } from 'react';
+import TagInput            from 'react-easy-tag-input';
 
 const App = () => {
     
