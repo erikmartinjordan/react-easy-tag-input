@@ -1,6 +1,6 @@
 {
     "name": "react-easy-tag-input",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🏷️  Easy way to create tags inside an input element.",
     "main": "./build/index.js",
     "scripts": {
