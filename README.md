@@ -13,7 +13,7 @@ npm i --save react-easy-tag-input
 
 ## Example
 
-To complete...
+![react-easy-tag-input](https://github.com/erikmartinjordan/react-easy-tag-input/blob/master/react-easy-tag-input.gif?raw=true)
 
 ## How to use
 
