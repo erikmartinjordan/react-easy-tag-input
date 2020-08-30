@@ -28,7 +28,7 @@ const TagInput = ({limit, tags, setTags}) => {
     
     const handleDelete = (e) => {
         
-        let indexToDelete = e.target.id;
+        let indexToDelete = parseInt(e.target.id);
         
         setTags([...tags.slice(0, indexToDelete), ...tags.slice(indexToDelete + 1)]);
         
