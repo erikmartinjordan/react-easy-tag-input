@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './TagInput.css';
 
-const TagInput = ({limit, tags, setTags}) => {
+const TagInput = ({limit, tags, setTags, hint}) => {
     
     const [newTag, setNewTag] = useState('');
     
@@ -50,7 +50,7 @@ const TagInput = ({limit, tags, setTags}) => {
                     disabled  = {tags.length === limit ? true : false}
                 />
             </div>
-            <div className = 'Hint'>Separate tags by a comma (,)</div>
+            <div className = 'Hint'>{hint}</div>
         </div>
     );
     

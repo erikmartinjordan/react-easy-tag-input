@@ -1,13 +1,18 @@
 {
     "name": "react-easy-tag-input",
-    "version": "1.0.22",
+    "version": "1.0.3",
     "description": "🏷️  Easy way to create tags inside an input element.",
     "main": "./build/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack"
     },
-    "keywords": ["React", "input", "tags", "simple"],
+    "keywords": [
+        "React",
+        "input",
+        "tags",
+        "simple"
+    ],
     "author": {
         "name": "Erik Martín Jordán",
         "url": "erikmartinjordan.com"

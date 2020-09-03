@@ -30,6 +30,7 @@ const App = () => {
             limit   = {5}
             tags    = {tags}
             setTags = {setTags}
+            hint    = {'Separate tags by a comma (,)'}
         />
     );
     
