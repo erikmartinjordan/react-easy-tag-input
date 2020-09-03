@@ -44,10 +44,11 @@ const TagInput = ({limit, tags, setTags, hint}) => {
                     </div>
                 ))}
                 <input
-                    onChange  = {handleChange}
-                    onKeyDown = {handleKeyDown}
-                    value     = {newTag}
-                    disabled  = {tags.length === limit ? true : false}
+                    onChange    = {handleChange}
+                    onKeyDown   = {handleKeyDown}
+                    value       = {newTag}
+                    disabled    = {tags.length === limit ? true : false}
+                    placeholder = {'Tags...'}
                 />
             </div>
             <div className = 'Hint'>{hint}</div>
